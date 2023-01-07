@@ -2,7 +2,7 @@
 
 
 **Self:**
-
+```
 struct SelfUsingInitializer1 {
     var property: String
     
@@ -12,9 +12,9 @@ struct SelfUsingInitializer1 {
 }
 
 SelfUsingInitializer1(property: "Ahmet")
+```
 
-
-
+```
 struct SelfUsingInitializer2 {
     var property1: Int
     var property2: Int = 7
@@ -23,3 +23,4 @@ struct SelfUsingInitializer2 {
     }
 }
 let object1 = SelfUsingInitializer2(property1: 12)
+```
