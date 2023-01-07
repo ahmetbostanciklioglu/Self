@@ -10,7 +10,6 @@ struct SelfUsingInitializer1 {
         self.property = property
     }
 }
-
 SelfUsingInitializer1(property: "Ahmet")
 ```
 
